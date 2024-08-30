@@ -29,7 +29,7 @@ jobs:
         name: linux
         path: ./${{ env.FILE_NAME }}
 
-    - name: Upload artifact for windows
+    - name: Upload artifact for Windows
       uses: actions/upload-artifact@v1.0.0
       with:
         name: windows
